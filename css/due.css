@@ -1,0 +1,135 @@
+/* Voyga */
+
+/* GLOBAL */
+
+@font-face
+{
+    font-family: Clean;
+
+    src: url(../font/Clean.otf);
+}
+*
+{
+    font-family: Clean;
+}
+body
+{
+    overflow: hidden;
+
+    transition: .25s;
+    text-align: center;
+
+    background: #373737;
+}
+#upperArea
+{
+    width: 100%;
+    margin-top: 48px;
+}
+p,
+i
+{
+    color: #ececec;
+}
+#title
+{
+    font-size: 42px;
+
+    margin-top: 64px;
+}
+#discription
+{
+    font-size: 24px;
+}
+#buttonBox
+{
+    margin: 24px auto 0;
+}
+.buttons
+{
+    position: relative;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: 120px;
+    height: 60px;
+
+    border-radius: 16px;
+    background: #3f3f3f;
+    box-shadow: 0 5px #3a3a3a;
+}
+.buttons:first-child
+{
+    margin-right: 16px;
+}
+.buttons:last-child
+{
+    margin-left: 16px;
+}
+.buttons:active
+{
+    top: 3px;
+
+    box-shadow: 0 2px #393939;
+}
+.statusBars
+{
+    width: 100%;
+    height: 6px;
+
+    background: #72e092;
+}
+.buttons p
+{
+    font-size: 22px;
+
+    margin-top: 5px;
+}
+.buttons p:hover
+{
+    cursor: pointer;
+}
+#screenshot
+{
+    bottom: -360px;
+
+    width: 388px;
+    height: auto;
+}
+
+/* 640 */
+
+@media (max-width: 640px)
+{
+    #screenshot
+    {
+        bottom: -276px;
+
+        width: 300px;
+    }
+    .buttons
+    {
+        width: 96px;
+        height: 48px;
+    }
+    .buttons:last-child
+    {
+        position: relative;
+        left: 50%;
+
+        display: block;
+
+        margin-top: 18px;
+        margin-left: 0;
+
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+    .buttons p
+    {
+        font-size: 18px;
+    }
+}
+
+/* 640 */

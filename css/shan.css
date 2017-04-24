@@ -1,0 +1,86 @@
+/* Voyga */
+
+/* GLOBAL */
+
+@font-face
+{
+    font-family: Benyue-Shan;
+
+    src: url(../font/Benyue-Shan.ttf);
+}
+body
+{
+    background: #f3f3f3;
+}
+
+/* GLOBAL */
+
+/* DIV */
+
+/* DIV */
+
+/* IMG */
+
+#screenshot
+{
+    width: 300px;
+    height: auto;
+    margin: -20px auto;
+}
+
+/* IMG */
+
+/* TEXT */
+
+p
+{
+    font-family: Benyue-Shan;
+
+    text-align: center;
+}
+#shan
+{
+    font-size: 48px;
+
+    margin-top: 30px;
+
+    color: #c40f33;
+}
+#dis
+{
+    font-size: 24px;
+
+    margin-top: 10px;
+
+    color: #666;
+}
+#download
+{
+    font-size: 32px;
+
+    margin-top: 12px;
+    margin-bottom: 30px;
+
+    color: #666;
+}
+#download span
+{
+    display: inline-block;
+
+    width: 3px;
+}
+
+/* TEXT */
+
+/* OTHER */
+
+.line
+{
+    width: 60px;
+    height: 2px;
+    margin: 15px auto;
+
+    background: #c40f33;
+}
+
+/* OTHER */

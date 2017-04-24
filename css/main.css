@@ -1,0 +1,574 @@
+/* Voyga */
+
+/* GLOBAL */
+
+@font-face
+{
+    font-family: FontAwesome;
+
+    src: url(../lib/FontAwesome.ttf);
+}
+@font-face
+{
+    font-family: Arvo;
+
+    src: url(../font/Arvo.ttf);
+}
+*
+{
+    text-align: center;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+
+    transition: .25s;
+
+    opacity: 100;
+    background: #AA92E5;
+}
+
+/* GLOBAL */
+
+/* DIV */
+
+#main
+{
+    position: relative;
+
+    width: 100%;
+    height: 75%;
+	z-index:10; 
+    background: #AA92E5;
+}
+#nameBox
+{
+    position: relative;
+
+    width: 100%;
+}
+
+
+#nameBox .center
+{
+    width: 100%;
+}
+#headBox
+{
+    bottom: 0;
+
+    height: 360px;
+}
+#content
+{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    background: #5591e5;
+}
+
+#mid_div
+{
+	position: relative;
+    width: 100%;
+    height: 25%;
+    background: #6591E5;
+	z-index:1; 
+}
+#contact_div
+{
+	position: relative;
+    width: 100%;
+    height: 40%;
+    background: #6591E5;
+	z-index:1; 
+}
+
+#tail
+{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+#projectWrapper
+{
+    position: relative;
+
+    width: 840px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.projectBoxes
+{
+    display: inline-block;
+
+    width: 240px;
+    height: 154px;
+
+    transition: .25s;
+
+    border: solid 3px #fafafa;
+    border-radius: 24px;
+}
+.projectBoxes:hover
+{
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+
+    background: rgba(250, 250, 250, .2);
+}
+.projectBoxes p:hover
+{
+    cursor: pointer;
+}
+.projectBoxes:nth-child(1)
+{
+    display: inline-block;
+    float: left;
+}
+.projectBoxes:nth-child(2)
+{
+    margin: 0 auto;
+}
+.projectBoxes:nth-child(3)
+{
+    display: inline-block;
+    float: right;
+}
+#contactBox
+{
+    width: 100%;
+    height: 64px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 36px;
+}
+.iconBoxes
+{
+    font-size: 40px;
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 64px;
+    height: 64px;
+    margin-left: 20px;
+
+    transition: .25s;
+
+    border-radius: 50%;
+    background: #fafafa;
+}
+.iconBoxes:hover
+{
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.iconBoxes:nth-child(1)
+{
+    margin-left: 0;
+}
+
+/* DIV */
+
+/* IMG */
+#introBox
+{
+    position: relative;
+
+    height: 600px;
+}
+
+#introBoxDalishen
+{
+    position: relative;
+
+    height: 600px;
+}
+
+#head
+{
+    width: auto;
+    height: 100%;
+}
+.eyeWhites
+{
+    position: absolute;
+
+    overflow: hidden;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+    background: #eee;
+}
+#eyeWhiteOne
+{
+    top: 200px;
+    left: 60px;
+}
+#eyeWhiteTwo
+{
+    top: 200px;
+    right: 74px;
+
+    background: #e5e5e5;
+}
+.eyeBlacks
+{
+    position: absolute;
+    left: 50%;
+
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+
+    border-radius: 50%;
+    background: #999;
+}
+#eyeBlackTwo
+{
+    background: #959595;
+}
+.projectIcons
+{
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+/* IMG */
+.image {
+    display: block;
+    box-shadow: 0 0 10px #555;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 0 10px #555;
+}
+
+.qr {
+    display: block;
+    box-shadow: 0 0 10px #555;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 0 10px #555;
+}
+
+
+/* TEXT */
+
+p
+{
+    font-family: Arvo;
+
+    color: #fafafa;
+}
+
+#pp
+{
+    font-family: Arvo;
+
+    color: #fafafa;
+	text-align: center;
+}
+
+#name
+{
+    font-size: 48px;
+
+    width: 266px;
+    margin: 0 auto;
+    padding: 8px;
+
+    border: solid #fafafa;
+    border-width: 5px;
+}
+#name span
+{
+    display: inline-block;
+
+    width: 16px;
+}
+#intro
+{
+    font-size: 24px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#intro span
+{
+    display: inline-block;
+
+    width: 10px;
+}
+.titles
+{
+    font-size: 32px;
+
+    display: inline-block;
+
+    margin-top: 64px;
+    padding-bottom: 2px;
+
+    border-bottom: solid 3px #fafafa;
+}
+.projectTitles
+{
+    font-size: 24px;
+
+    margin-top: 4px;
+}
+.projectTitles span
+{
+    font-size: .64em;
+}
+.screenshots
+{
+    position: absolute;
+
+    width: auto;
+    height: 500px;
+}
+#random1
+{
+    
+    left: 90px;
+	position: absolute;
+	bottom: -80px;
+}
+#random2
+{
+    position: absolute;
+	bottom: -80px;
+    left: 390px;
+}
+#random4
+{
+    position: absolute;
+	bottom: -80px;
+    right: 245px;
+}
+#random4Dalishen
+{
+    position: absolute;
+    bottom: -80px;
+    right: 95px;
+}
+
+#downTip
+{
+	font-family: SourceSansPro;
+    font-size: 22px;
+
+    position: absolute;
+	bottom: -100px;
+	right: 260px;
+}
+
+#downTipDalishen {
+    font-family: SourceSansPro;
+    font-size: 22px;
+
+    position: absolute;
+    bottom: -100px;
+    right: 100px;
+}
+
+#dis
+{
+    font-family: SourceSansPro;
+    font-size: 22px;
+
+    position: absolute;
+    top: 290px;
+    left: 340px;
+}
+
+#android_button
+{
+	position: absolute;
+	bottom: 352px;
+    right: 260px;
+	width: 280px;
+}
+
+#android_button_dalishen
+{
+    position: absolute;
+    bottom: 352px;
+    right: 105px;
+    width: 280px;
+}
+#ios_button
+{
+	position: absolute;
+	bottom: 264px;
+    right: 260px;
+	width: 280px;
+	
+}
+
+.btnimg
+{
+	height: 78px;
+	width: 280px;
+}
+
+
+.buttons
+{
+	font-family: SourceSansPro-Light;
+	font-size: 20px;
+
+	display: inline-block;
+
+	color: #aaa;
+}
+.buttons:hover
+{
+	cursor: pointer;
+}
+
+#email
+{
+    font-size: .8em;
+}
+#behance
+{
+    font-size: .8em;
+}
+.iconBoxes i
+{
+    color: #5591e5;
+}
+
+.contactIcons
+{
+	color: #AA92E5
+}
+
+/* TEXT */
+
+/* ANIMATION */
+
+/* ANIMATION */
+
+/* OTHER */
+
+.projectLines
+{
+    width: 32px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 12px;
+
+    background: #fafafa;
+}
+
+/* OTHER */
+
+/* 880 */
+
+@media (max-width: 880px)
+{
+    #projectWrapper
+    {
+        width: 240px;
+        margin-bottom: 32px;
+    }
+    .projectBoxes
+    {
+        display: block;
+
+        margin: 0 auto;
+    }
+    .projectBoxes:nth-child(1)
+    {
+        float: none;
+    }
+    .projectBoxes:nth-child(2)
+    {
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    .projectBoxes:nth-child(3)
+    {
+        float: none;
+
+        margin-top: 32px;
+    }
+}
+
+/* 640 */
+
+@media (max-width: 640px)
+{
+    #headBox
+    {
+        height: 240px;
+    }
+    .iconBoxes
+    {
+        font-size: 30px;
+
+        width: 54px;
+        height: 54px;
+    }
+    .eyeWhites
+    {
+        width: 32px;
+        height: 32px;
+    }
+    #eyeWhiteOne
+    {
+        top: 130px;
+        left: 40px;
+    }
+    #eyeWhiteTwo
+    {
+        top: 130px;
+        right: 54px;
+    }
+    .eyeBlacks
+    {
+        width: 16px;
+        height: 16px;
+        margin-left: -8px;
+    }
+    #name
+    {
+        font-size: 40px;
+
+        width: 220px;
+        padding: 6px;
+
+        border-width: 4px;
+    }
+    #name span
+    {
+        display: inline-block;
+
+        width: 12px;
+    }
+    #intro
+    {
+        font-size: 20px;
+
+        width: 240px;
+    }
+}
+
+/* 640 */

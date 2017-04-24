@@ -1,0 +1,98 @@
+/* Voyga */
+
+@font-face
+{
+    font-family: OpenSans-Regular;
+
+    src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face
+{
+    font-family: OpenSans-Semibold;
+
+    src: url(../font/OpenSans-Semibold.ttf);
+}
+@font-face
+{
+    font-family: FontAwesome;
+
+    src: url(../lib/FontAwesome.ttf);
+}
+*
+{
+    font-family: OpenSans-Regular;
+
+    text-align: center;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+
+    transition: 1s;
+
+    opacity: 0;
+    background: #2f2f2f;
+}
+.pages
+{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+
+    background: #2f2f2f;
+}
+
+/* ONE */
+
+#title
+{
+    font-family: OpenSans-Semibold;
+    font-size: 64px;
+
+    display: inline-block;
+
+    padding: 6px 28px;
+
+    text-align: center;
+
+    color: #f8f8f8;
+    border: solid 8px #f8f8f8;
+}
+#hands
+{
+    bottom: 0;
+
+    width: 400px;
+    height: auto;
+}
+
+/* ONE */
+
+/* TWO */
+
+#lightening
+{
+    width: 96px;
+    height: auto;
+    margin: 48px auto 0;
+}
+
+/* TWO */
+
+@media (max-width: 640px)
+{
+    #title
+    {
+        font-size: 48px;
+
+        border: solid 7px #f8f8f8;
+    }
+    #hands
+    {
+        width: 300px;
+    }
+}
