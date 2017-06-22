@@ -45,6 +45,6 @@
 		left:50%;
 		color: #fff;
 	}
-	#Div1{background-image:url(img/body_bg.png);  background-size: cover;}
+	#Div1{background-image:url(img/body_bg.jpg);  background-size: cover;}
 	#Div2{background-image:url(img/body_bg1.jpg);  background-size:inherit; display: none; opacity: 0; background-color: black;}
 	#Div3{background-image:url(img/body_bg2.jpg);  background-size: cover; display: none; opacity: 0;}
